@@ -2,17 +2,14 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Languages: C++ | Python | Java | JavaScript" },
+  { skill: "Development Frameworks: Django | Android" },
+  { skill: "ML frameworks: Tensorflow | Keras" },
+  { skill: "Cloud: Azure | AWS" },
+  { skill: "Version Control: Git | Azure Devops" },
+  { skill: "Python Libraries: Numpy | Pandas | sklearn | matplotlib | seaborn | NLTK" },
+  { skill: "Dev Tools: Android Studio | PyCharm | Jupyter notebook | Google colab | Vscode" },
+  
 ]
 
 const AboutSection = () => {
@@ -30,35 +27,40 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Naaz and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              and AI enthusiast.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I am pursuing my graduation from Bennett University, India
+              in Computer Science Engineering and am working as 
+              <span className="font-bold">{" Associate DevOps Engineer"}</span> at 
+              <span className="font-bold">{" CAW Studios"}</span>.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              As a tech-enthusiast I I am passionately engaged 
+              in the dynamic intersection of technology and innovation.
+              My academic journey has equipped me with a robust foundation,
+              and I am continually driven to explore the evolving landscape of computing.
+              With working in DevOps, I bring a wealth of experience 
+              in optimizing software development and IT operations.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+            My fascination with artificial intelligence fuels my commitment to staying at the 
+            forefront of AI technologies. I am dedicated to harnessing the power of AI to develop
+            intelligent solutions that drive efficiency and innovation across diverse domains.
+            Crafting innovative software solutions is at the core of my professional journey. 
+            </p>
+            <br />
+            <p>
+            Looking ahead, I am enthusiastic about contributing to the evolution of technology.
+            My goal is to not only stay ahead of the curve but also to play a pivotal role in shaping
+            the future of AI, software solutions, and cloud computing through innovation and exploration.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
